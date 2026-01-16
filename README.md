@@ -1,16 +1,19 @@
-# dummy
+# Flutter Search App with State Persistence
 
-A new Flutter project.
+This Flutter application demonstrates **search API integration with proper state persistence**.
+The app uses **Provider** for state management and **Hive** for local storage.
 
-## Getting Started
+## Features
+- Search data from API
+- Navigate to another screen and come back
+- No unnecessary API call on back navigation
+- UI state (search text & list) is preserved
+- Clean architecture with Model, Repository, and Provider
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Provider
+- Hive
+- HTTP
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project explains the difference between **in-memory state** and **persistent state** in Flutter.
